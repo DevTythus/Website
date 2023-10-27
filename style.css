@@ -3,78 +3,31 @@
     margin: 0;
 }
 
-body {
-    margin-left: 32px;
-    margin-right: 32px;
-    background-color: black;
-    color: #f8f9fa;
-}
-
-.logo {
-    height: 60px;
-    width: auto;
-    vertical-align: middle;
-}
-
-a {
-    color: white;
-    vertical-align: middle;
+.name {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 14px;
 }
 
 .navbar {
+    list-style: none;
     display: flex;
-    justify-content: space-between;
-    vertical-align: middle;
-    margin-top: 32px;
+    justify-content: space-evenly;
+    font-size: 40px;
+    gap: 1rem;
 }
 
-.header-list {
-    list-style-type: none;
-    display: flex;
-    vertical-align: middle;
+.navbar__container {
+    padding: 1rem 3rem;
 }
 
-.list-item {
-    margin-right: 15px;
-    font-size: 1rem;
-    vertical-align: middle;
-    margin-top: 15px;
-}
 
-.header-list a {
+a {
     text-decoration: none;
+    color: black;
 }
 
-.container {
-    padding-top: 200px;
-    display: flex;
-    justify-content: center;
+section {
+    min-height: 75vh;
 }
-
-.container h1 {
-    font-size: 85px;
-    text-align: center;
-}
-
-.container p {
-    text-align: center;
-    width: 400px;
-    margin: auto;
-}
-
-.home {
-    margin: 0;
-    height: 50vh;
-    width: 100vw;
-    
-}
-
-.section {
-    height: 50vh;
-    width: 100vw;
-}
-
-.skills {
-
-}
-
