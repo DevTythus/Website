@@ -3,6 +3,11 @@
     margin: 0;
 }
 
+body {
+    word-break: normal;
+    margin-inline: 20px;
+}
+
 .name {
     text-align: center;
     font-size: 18px;
@@ -30,4 +35,14 @@ a {
 
 section {
     min-height: 75vh;
+}
+
+.about {
+    display: flex;
+    text-align: center;
+    padding-top: 70px;
+    vertical-align: middle;
+}
+
+.about__card {
 }
